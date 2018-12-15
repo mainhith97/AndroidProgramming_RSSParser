@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_toc_black_24dp"
+            android:title="Thêm báo mới" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sửa báo đã chọn" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_format_color_text_black_24dp"
+            android:title="Chọn kích thước chữ" />
+    </group>
+    <item android:title="Báo khác">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Tuổi trẻ" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Vietnamnet" />
+        </menu>
+    </item>
+    <item android:title="Page">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Hướng dẫn" />
+        </menu>
+    </item>
+
+</menu>
